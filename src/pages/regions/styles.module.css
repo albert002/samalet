@@ -1,0 +1,37 @@
+.root {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.header {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 30px; 
+}
+.tools {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-bottom: 30px; 
+}
+.input {
+  width: 300px !important;
+}
+.select {
+  width: 250px;
+  margin-left: 60px !important;
+}
+.switch {
+  width: 130px;
+}
+.cardContainer {
+  margin-bottom: 30px;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 120px;
+  text-align: center;
+}
